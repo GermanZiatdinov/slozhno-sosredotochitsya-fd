@@ -120,7 +120,7 @@
   pointer-events: none;
 }
 
-.header-footer_title {
+.header_title {
   margin-inline-end: var(--indent-com, 10px);
   color: var(--header-color);
   font-family: var(--font-family);
@@ -129,7 +129,7 @@
   line-height: 82.5%;
 }
 
-.header-title {
+.title {
   display: block;
   grid-row: 2;
   margin-inline-start: var(--indent-com, 10px);
@@ -285,7 +285,7 @@
     margin-block-start: 190px;
   }
 
-  .header-title {
+  .title {
     margin-inline-start: 0;
   }
 
@@ -391,7 +391,7 @@
     gap: var(--gap-com, 10px);
   }
 
-  .header-title {
+  .title {
     font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
   }
 
