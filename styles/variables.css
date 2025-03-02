@@ -1,20 +1,19 @@
 :root {
-  --header-color: #db00ff;
-  --accent-color:#ff0070;
-  --accent-color-transparent: #ff007040;
-  --shadow-color: #ff0070; 
-  --subtitle-color:#ff0070; 
-  --text-color: #000028; 
-  --main-text-color: #f1b2ce; 
-  --button-hover-col: #ff007066; 
-  --background-color: #000028; 
-  --background-image: url("../images/cover-image-dark.png"); 
-  --font-family: "IBM Plex mono", "Arial", sans-serif; 
-  --font-size-com: 18px; 
-  --font-weight-min: 400; 
-  --font-weight-max: 700; 
-  --indent-com: 10px; 
-  --indent-add: 20px; 
-  --gap-com: 10px; 
-  --gap-add: 20px; 
-} 
+  --basic-color-light-theme: #FF8DCB;
+  --title-color-light-theme: #FFC2E6;
+  --sections-bg-color-light-theme: #FFF1F7;
+  --title-bg-color-dark-theme: #ff0070;
+  --p-text-color-dark-theme: #000028;
+  --text-color-light-theme: #353430;
+  --regular-font-size: 18px;
+  --regular-line-height: 100%;
+  --regular-gap: 10px;
+  --decoration-gap: clamp(10px , 2.65vw , 20px);
+  --min-height: 668px;
+  --header-margin-left: min(10px , 20px - 2.6vw);
+  --section-child-margin: 40px;
+  --project-font-family: "IBM Plex Mono", "Arial", sans-serif;
+  --corner-thickness: 1px;
+  --rec_empty_x_pos: 30px;
+  
+}
