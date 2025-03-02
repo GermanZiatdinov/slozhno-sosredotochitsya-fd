@@ -2,19 +2,19 @@
   --header-color: #db00ff;
   --accent-color:#ff0070;
   --accent-color-transparent: #ff007040;
-  --shadow-color-default: #ff0070;
-  --subtitle-color-default:#ff0070;
-  --text-color-primary: #000028;
-  --text-color-secondary: #f1b2ce;
-  --button-hover-color: #ff007066;
-  --background-color-primary: #000028;
-  --background-image-cover: url("../images/cover-image-dark.png");
-  --font-family: "IBM Plex mono", "Arial", sans-serif;
-  --font-size-com: 18px;
-  --font-weight-min: 400;
-  --font-weight-max: 700;
-  --indent-com: 10px;
-  --indent-add: 20px;
-  --gap-com: 10px;
-  --gap-add: 20px;
-}
+  --shadow-color: #ff0070; 
+  --subtitle-color:#ff0070; 
+  --text-color: #000028; 
+  --main-text-color: #f1b2ce; 
+  --button-hover-col: #ff007066; 
+  --background-color: #000028; 
+  --background-image: url("../images/cover-image-dark.png"); 
+  --font-family: "IBM Plex mono", "Arial", sans-serif; 
+  --font-size-com: 18px; 
+  --font-weight-min: 400; 
+  --font-weight-max: 700; 
+  --indent-com: 10px; 
+  --indent-add: 20px; 
+  --gap-com: 10px; 
+  --gap-add: 20px; 
+} 
