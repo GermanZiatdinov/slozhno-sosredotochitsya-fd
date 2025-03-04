@@ -41,13 +41,16 @@
   line-height: 25px; 
 } 
  
-.decorated-zone {
+.header-decorated-zone {
   display: grid;
   grid-template-rows: 1fr 1fr 1fr;
   padding: 10px;
   min-height: 668px;
   height: 100vh;
 }
+.decorated-zone { 
+  position: relative; 
+} 
  
 .decorated-zone::before, 
 .decorated-zone::after { 
