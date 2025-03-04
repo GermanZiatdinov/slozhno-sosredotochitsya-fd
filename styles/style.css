@@ -425,7 +425,20 @@
     font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem); 
   }
   .footer-tit {
-    color: #pink; 
-    
+    .title__footer {
+  color: var(--accent-color);
+  text-shadow: 2px 2px 0 var(--main-color);
+  font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
+  line-height: 0.84;
+  font-weight: bold;
+  justify-self: center;
+  align-self: center;
+  grid-row-end: span 3;
+}
+
+@media (768px <= width) {
+  .title__footer {
+    font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
   }
+}
 
