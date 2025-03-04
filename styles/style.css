@@ -101,7 +101,7 @@
 } 
  
 .header__theme-menu-button:hover { 
-  outline: 1px solid var(--accent-color-40); 
+  outline: 1px solid var(--accent-color-transparent); 
   cursor: pointer; 
 } 
  
