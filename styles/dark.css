@@ -1,8 +1,8 @@
 :root.theme-dark { 
   --header-color: #db00ff; 
-  --accent-color-transparent: #ff007040; 
+  --accent-color-transperent: #ff0070; 
   --subtitle-color:#ff0070; 
-  --accent-color-transparent: #ff007040; 
+  --accent-color-40: #ff007040; 
   --shadow-color: #ff0070; 
   --text-color: #000028; 
   --main-text-color: #f1b2ce; 
@@ -14,4 +14,3 @@
 .theme-dark .rec { 
   display: block; 
 } 
-
