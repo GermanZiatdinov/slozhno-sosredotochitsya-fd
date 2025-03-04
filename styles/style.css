@@ -41,10 +41,10 @@
   line-height: 25px; 
 } 
  
-.decorated-zone {
-  display: relative;
-}
-
+.decorated-zone { 
+  position: relative; 
+} 
+ 
 .decorated-zone::before, 
 .decorated-zone::after { 
   content: ""; 
@@ -423,8 +423,5 @@
  
   .footer-title { 
     font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem); 
-  }
-  .footer-tit {
-  color: ;
-}
-
+  } 
+} 
