@@ -3,7 +3,7 @@
   --header-color: #ffc2e6; 
   --accent-color: #ff8dcb; 
   --subtitle-color:#353430; 
-  --accent-color-40: #32312D66; 
+  --secondary-accent-color-opacity: #32312D66; 
   --shadow-color: #ff8dcb; 
   --text-color: #353430; 
   --main-text-color: #353430; 
@@ -21,7 +21,7 @@
     --header-color: #ffc2e6; 
     --accent-color: #ff8dcb; 
     --subtitle-color:#353430; 
-    --accent-color-40: #32312D66; 
+    --secondary-accent-color-opacity: #32312D66; 
     --shadow-color: #ff8dcb; 
     --text-color: #353430; 
     --main-text-color: #353430; 
