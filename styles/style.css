@@ -424,4 +424,12 @@
   .footer-title { 
     font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem); 
   } 
+  .footer_tit { 
+  margin-inline-end: var(--indent-com, 10px); 
+  color: var(--header-color); 
+  font-family: var(--font-family); 
+  font-weight: var(--font-weight-max, 700); 
+  font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem); 
+  line-height: 82.5%; 
+} 
 } 
