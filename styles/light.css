@@ -1,37 +1,37 @@
+:root.theme-light {
+  --main-text-color: #353430;
+  --accent-color: #353430;
+  --accent-title-color: #FF8DCB;
+  --title-color: #FFC2E6;
+  --main-color: #353430;
+  --cover-color: #FFF1F7;
+  --cover-image: url(../images/cover-image-light.png);
+}
 
-:root.theme-light { 
-  --header-color: #ffc2e6; 
-  --accent-color: #ff8dcb; 
-  --subtitle-color:#353430; 
-  --secondary-accent-color-opacity: #32312D66; 
-  --shadow-color: #ff8dcb; 
-  --text-color: #353430; 
-  --main-text-color: #353430; 
-  --button-hover-col: #32312d66; 
- 
-  --background-color: #fff1f7; 
-  --background-image: url("../images/cover-image-light.png"); 
- 
-} 
-.theme-light .rec { 
-  display: none; 
-} 
-@media (prefers-color-scheme: light) { 
-  :root { 
-    --header-color: #ffc2e6; 
-    --accent-color: #ff8dcb; 
-    --subtitle-color:#353430; 
-    --secondary-accent-color-opacity: #32312D66; 
-    --shadow-color: #ff8dcb; 
-    --text-color: #353430; 
-    --main-text-color: #353430; 
-    --button-hover-col: #32312d66; 
-    --background-color: #fff1f7; 
-    --background-image: url("../images/cover-image-light.png"); 
-  } 
- 
-  .rec { 
-    display: none; 
-  } 
- 
-} 
+.theme-light .header__extra-element::before, .theme-light .header__extra-element::after {
+  display: none;
+}
+
+.theme-light .header__theme-menu-button:hover {
+  outline: 1px solid rgba(53, 52, 48, 0.4);
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    --main-text-color: #353430;
+    --accent-color: #353430;
+    --accent-title-color: #FF8DCB;
+    --title-color: #FFC2E6;
+    --main-color: #353430;
+    --cover-color: #FFF1F7;
+    --cover-image: url(../images/cover-image-light.png);
+  }
+
+  .theme-light .header__extra-element::before, .theme-light .header__extra-element::after, .theme-auto .header__extra-element::before, .theme-auto .header__extra-element::after {
+    display: none;
+  }
+
+  .theme-light .header__theme-menu-button:hover, .theme-auto .header__theme-menu-button:hover {
+    outline: 1px solid rgba(53, 52, 48, 0.4);
+  }
+}
