@@ -178,7 +178,7 @@ a:focus-visible {
 }
 
 .main__block-description:not(:last-child), .main__block-reason:not(:last-child), .main__block-list-card:not(:last-child), .main__block-advices .main__block-subtitle {
-  margin-block-end: var(--padding-standard-x2);
+  margin-block-end: var(--double-standard-padding);
 }
 
 .main__block-list .main__block-title {
@@ -187,7 +187,7 @@ a:focus-visible {
 }
 
 .main__block-advices > .main__block-title {
-  margin-block-end: var(--padding-standard-x2);
+  margin-block-end: var(--double-standard-padding);
   line-height: var(--line-height);
 }
 
@@ -233,12 +233,12 @@ img {
   }
 
   .main__block {
-    padding-inline: var(--padding-standard-x2);
+    padding-inline: var(--double-standard-padding);
     margin-block-end: 80px;
   }
 
   .main__block-title {
-    margin-block-end: var(--padding-standard-x2);
+    margin-block-end: var(--double-standard-padding);
   }
 
   .main__block-subtitle {
@@ -246,13 +246,13 @@ img {
   }
 
   .main__block-pictures-subtitle {
-    margin-block-end: var(--padding-standard-x2);
+    margin-block-end: var(--double-standard-padding);
   }
 
   .main__block-why {
     display: grid;
     grid-template-columns: 1fr 2fr;
-    column-gap: var(--padding-standard-x2);
+    column-gap: var(--double-standard-padding);
   }
 
   .main__block-why .main__block-title {
@@ -271,7 +271,7 @@ img {
   .main__block-advices {
     display: grid;
     grid-template-columns: 1fr 2fr;
-    column-gap: var(--padding-standard-x2);
+    column-gap: var(--double-standard-padding);
   }
 
   .main__block-advices + .main__block-title {
@@ -286,7 +286,7 @@ img {
   .main__block-pictures {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    gap: var(--padding-standard-x2);
+    gap: var(--double-standard-padding);
     grid-auto-flow: dense;
     inline-size: max(728px, 100%);
   }
@@ -355,7 +355,7 @@ img {
   .main__block-what {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    column-gap: var(--padding-standard-x2);
+    column-gap: var(--double-standard-padding);
   }
 
   .main__block-what .main__block-title {
