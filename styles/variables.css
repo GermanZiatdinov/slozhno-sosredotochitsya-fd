@@ -18,7 +18,7 @@
   --header-extra-element-figure-position-top: 18px;
   --header-extra-element-figure-position-right: 19px;
   --padding-standard: 10px;
-  --padding-standard-x2: 20px;
+  --double-standard-padding: 20px;
 }
 
 @media (width >= 768px) {
