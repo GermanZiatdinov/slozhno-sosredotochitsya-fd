@@ -6,6 +6,7 @@
   --main-color: #353430;
   --cover-color: #FFF1F7;
   --cover-image: url(../images/cover-image-light.png);
+  --header-color: #ff0070;
 }
 
 .theme-light .header__extra-element::before, .theme-light .header__extra-element::after {
@@ -26,6 +27,7 @@
     --cover-color: #FFF1F7;
     --cover-image: url(../images/cover-image-light.png);
     --theme-light-header-button-hover-outline-color: rgba(53, 52, 48, 0.4);
+    --header-color: #ff0070;
   }
 
   .theme-light .header__extra-element::before, .theme-light .header__extra-element::after, .theme-auto .header__extra-element::before, .theme-auto .header__extra-element::after {
