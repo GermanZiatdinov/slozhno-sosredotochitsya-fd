@@ -19,6 +19,7 @@
   --header-extra-element-figure-position-right: 19px;
   --padding-standard: 10px;
   --double-standard-padding: 20px;
+  --header-color: #ff0070;
 }
 
 @media (width >= 768px) {
