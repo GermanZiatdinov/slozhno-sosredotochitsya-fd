@@ -63,7 +63,7 @@ a:focus-visible {
 }
 
 .header__theme-menu-button:hover {
-  outline: 1px solid rgba(255, 0, 112, 0.4);
+  outline: 1px solid var(--header-color);
 }
 
 .header__theme-menu-button:focus {
