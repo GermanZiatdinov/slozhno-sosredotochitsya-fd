@@ -108,6 +108,7 @@ a:focus-visible {
   color: var(--accent-color);
   top: var(--header-extra-element-position-top);
   right: var(--header-extra-element-position-right);
+  display: var(--header-extra-element-display, initial);
 }
 
 .header__extra-element::after {
@@ -120,6 +121,7 @@ a:focus-visible {
   box-shadow: 0 0 3px 3px var(--accent-color);
   top: var(--header-extra-element-figure-position-top);
   right: var(--header-extra-element-figure-position-right);
+  display: var(--header-extra-element-display, initial);
 }
 
 .decorated_element::before {
