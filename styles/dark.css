@@ -7,4 +7,5 @@
   --cover-color: #000028;
   --cover-image: url(../images/cover-image-dark.png);
   --header-color: #ff0070;
+  --header-extra-element-display: inline;
 }
