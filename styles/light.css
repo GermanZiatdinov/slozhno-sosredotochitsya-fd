@@ -7,6 +7,7 @@
   --cover-color: #FFF1F7;
   --cover-image: url(../images/cover-image-light.png);
   --header-color: rgba(53, 52, 48, 0.4);
+  --header-extra-element-display: none;
 }
 
 @media (prefers-color-scheme: light) {
@@ -19,5 +20,6 @@
     --cover-color: #FFF1F7;
     --cover-image: url(../images/cover-image-light.png);
     --header-color: rgba(53, 52, 48, 0.4);
+    --header-extra-element-display: none;
   }
 }
